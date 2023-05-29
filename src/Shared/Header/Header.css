@@ -1,0 +1,9 @@
+.header-logo {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.bg-gradiand {
+  background: linear-gradient(90deg, rgb(196, 174, 29), #21d0c7);
+}
