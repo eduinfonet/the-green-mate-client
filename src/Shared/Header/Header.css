@@ -2,8 +2,17 @@
   width: 500px;
   margin: 0 auto;
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 .bg-gradiand {
-  background: linear-gradient(90deg, rgb(196, 174, 29), #21d0c7);
+  background: linear-gradient(90deg, #a4be7b, #5f8d4e);
+}
+
+.button-login {
+  background-color: rgb(192, 0, 147);
+  border: none;
+}
+
+.button-login:hover {
+  background-color: #af5d9f;
 }

@@ -5,17 +5,22 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import LeftNav from "../Shared/LeftNav/LeftNav";
 import RightNav from "../Shared/RightNav/RightNav";
+import { Outlet } from "react-router-dom";
+import NavigationBar from "../Shared/NavigationBar/NavigationBar";
 
 const Main = () => {
   return (
     <div>
       <Header></Header>
+      <NavigationBar></NavigationBar>
       <Container>
         <Row>
           <Col md={3}>
             <LeftNav></LeftNav>
           </Col>
-          <Col md={6}>Middle is comming</Col>
+          <Col md={6}>
+            <Outlet></Outlet>
+          </Col>
           <Col md={3}>
             <RightNav></RightNav>
           </Col>
